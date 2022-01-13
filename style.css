@@ -13,11 +13,6 @@
         filter: drop-shadow(0 0 10px var(--cor-neon));
     }
 }
-img, .parte-links ul li{
-    animation: neon 3s alternate infinite ease-in-out;
-}
-
-
 
 body {
     background-color: rgb(0, 0, 0);
@@ -41,6 +36,7 @@ body {
     border: 2px solid white;
     border-radius: 100px;
     padding: 8px;
+    animation: neon 3s alternate infinite ease-in-out;
     --cor-neon: white;
 }
 
@@ -73,6 +69,7 @@ body {
     font-family: Poppins, sans-serif;
     font-style: SemiBold;
     font-size: 16px;
+    animation: neon 3s alternate infinite ease-in-out;
     
 }
 
